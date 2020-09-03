@@ -10,15 +10,16 @@
 }
 
 .header {
-  /*height: 100vh;*/
-  min-height: 790px;
-  /*max-height: 756px;*/
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
   /* выше установили ограничения для секции */
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background-color: #f2f2f2;
+  box-sizing: border-box;
 }
 
 .logo_place_header {
@@ -46,14 +47,16 @@
   bottom: 30px;
   left: 64px;
   z-index: 2;
+  margin: 0;
   width: 388px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 25px;
 }
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__link:hover {
@@ -67,7 +70,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-  bottom: 64px;
   background-color: #2f80ed;
 }
 
@@ -96,7 +98,7 @@
   margin: 0;
   width: 175px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   color: #2f80ed;
 }
@@ -111,11 +113,11 @@
 .two-columns__paragraph {
   margin: 0;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 34px;
 }
 
-.two-columns__paragraph:nth-child(2) {
+.two-columns__paragraph:nth-child(2n) {
   margin: 30px 0;
 }
 
@@ -147,7 +149,7 @@
   margin: 0;
   width: 60%;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 34px;
   text-align: center;
 }
@@ -180,7 +182,7 @@
   margin: 0;
   margin-top: 20px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -209,7 +211,7 @@
   margin-top: 70px;
   text-align: center;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 51px;
 }
 
@@ -219,7 +221,7 @@
   right: 48px;
   color: #000000;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 51px;
   text-decoration: none;
 }
@@ -289,7 +291,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 50%;
+  flex-basis: 711px;
 }
 
 .logo_place_footer {
@@ -300,11 +302,13 @@
 }
 
 .footer__author {
+  font-size: 18px;
   line-height: 25px;
 }
 
 .footer__column-heading {
   margin: 0;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -317,6 +321,7 @@
 }
 
 .footer__column-link {
+  font-size: 18px;
   line-height: 30px;
   color: #ffffff;
   text-decoration: none;
