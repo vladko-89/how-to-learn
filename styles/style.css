@@ -56,6 +56,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
@@ -72,6 +76,8 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  width: 765px;
+  height: 608px;
 }
 
 .description {
@@ -218,6 +224,10 @@
   text-decoration: none;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .kaufman {
   position: relative;
   padding-top: 90px;
@@ -252,6 +262,9 @@
   position: absolute;
   top: -10px;
   right: -250px;
+  width: 877px;
+  height: 877px;
+  background-image: url("../images/kaufman-triangle.svg");
 }
 
 .footer {
@@ -307,6 +320,10 @@
   line-height: 30px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__social-icon {

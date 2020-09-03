@@ -19,13 +19,12 @@
         <a href="#" class="header__link">Узнать &#8594;</a>
       </p>
       <div class="header__square-pic"></div>
-      <img src="./images/header-image.png" width="765" height="608" alt="Изображение: Дети"
-        class="header__main-illustration">
+      <img src="./images/header-image.png" alt="Изображение: Дети" class="header__main-illustration">
 
     </header>
     <main class="content">
       <section class="description">
-        <div class="description__content two-columns">
+        <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
@@ -43,7 +42,7 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table digits__content">
           <li class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
@@ -84,13 +83,13 @@
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a href="#" class="feynman__link">Подробьнее &#8594;</a>
       </section>
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -130,21 +129,20 @@
             </p>
           </li>
           <li class="table__cell table__cell_theme_dark">
-            <h4 class="table__heading table__title_heading_dark">10</h4>
+            <h4 class="table__heading table__heading_theme_dark">10</h4>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" width="877" height="877"
-          alt="Изображение треугольника">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <section class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
-        </section>
-        <section class="footer__column_content_info">
+        </div>
+        <nav class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О практикуме</h2>
           <ul class="footer__column-links">
             <li><a href="https://praktikum.yandex.ru/" class="footer__column-link">Главная</a></li>
@@ -152,8 +150,8 @@
             <li><a href="https://praktikum.yandex.ru/promo/mentors-school/" class="footer__column-link">Наставники</a>
             </li>
           </ul>
-        </section>
-        <section class="footer__column_content_social">
+        </nav>
+        <div class="footer__column footer__column_content_social">
           <h2 class="footer__column-heading">Соцсети</h2>
           <ul class="footer__column-links">
             <li>
@@ -175,8 +173,8 @@
               </a>
             </li>
           </ul>
-        </section>
-      </div>
+          </section>
+        </div>
 
     </footer>
   </div>
