@@ -4,7 +4,7 @@
   left: 64px;
   z-index: 2;
   margin: 0;
-  width: 388px;
+  max-width: 388px;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;

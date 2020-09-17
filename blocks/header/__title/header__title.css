@@ -1,6 +1,6 @@
 .header__title {
   z-index: 10;
-  width: 730px;
+  max-width: 730px;
   margin: 0;
   margin-left: 64px;
   font-size: 102px;
